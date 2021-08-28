@@ -38,7 +38,7 @@ const TeacherRegister = () => {
     }
     const mismatchPassword = () => {
         toast.error( 'Password Does not match!', {
-            position: "top-center",
+            position: "top-center",     
             autoClose: 3000,
             hideProgressBar: false,
             closeOnClick: true,

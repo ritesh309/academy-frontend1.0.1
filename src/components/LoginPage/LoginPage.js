@@ -3,7 +3,7 @@ import { NavLink, useHistory } from 'react-router-dom'
 import "./LoginPage.css"
 import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css"
 import "../../../node_modules/bootstrap/dist/js/bootstrap.bundle"
-
+import axios from "axios"
 
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -54,7 +54,8 @@ const LoginPage = () => {
     const loginStudent = async ( e ) => {
 
         e.preventDefault();
-        const res = await fetch( "/studentlogin", {
+
+        const res = await axios.post( "/studentlogin", {
             method: "POST",
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify( {
