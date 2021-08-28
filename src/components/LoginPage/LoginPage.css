@@ -1,0 +1,32 @@
+.bg-image{
+    background-image: url('https://images.unsplash.com/photo-1471897488648-5eae4ac6686b?ixid=MnwxMjA3fDF8MHxzZWFyY2h8MjN8fGxhcHRvcHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60');
+}
+.card{
+    border-radius: 15px;
+}
+.form-control{
+    border: 1px solid black;
+}
+.gradient-custom-3 {
+    /* fallback for old browsers */
+    background: #070707de;
+  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(107, 39, 233, 0.555), rgba(0, 0, 0, 0.705));
+  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(61, 5, 151, 0.5), rgba(0, 12, 19, 0.795))
+  }
+  .gradient-custom-4 {
+    /* fallback for old browsers */
+    background: #84fab0;
+  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgb(11, 12, 11), rgba(42, 23, 214, 0.883));
+  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(1, 1, 2, 0.856), rgba(143, 211, 244, 1))
+  }
+  .text-body{
+    text-decoration: none;
+}
